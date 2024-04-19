@@ -33,6 +33,11 @@ type WebsocketMsg struct {
 	Data []byte
 }
 
+// rawMsg is used to skip JSON marshaling while sending messages.
+type rawMsg struct {
+	Data []byte
+}
+
 // ClientID is the ID of a client.
 type ClientID uint32
 
@@ -293,6 +298,11 @@ func (c *Client) writePump() {
 		ctx, cancel := context.WithTimeout(c.ctx, writeWait)
 		defer cancel()
 
+		// check if the message is a raw message that does not need to be JSON marshaled.
+		if rawMsg, ok := msg.(*rawMsg); ok {
+			return c.conn.Write(ctx, websocket.MessageText, rawMsg.Data)
+		}
+
 		return wsjson.Write(ctx, c.conn, msg)
 	}
 
@@ -340,7 +350,8 @@ func (c *Client) writePump() {
 }
 
 // Send sends a message to the client.
-func (c *Client) Send(ctx context.Context, msg interface{}, dontDrop ...bool) error {
+// JSON marshaling is done automatically based on "json" tags.
+func (c *Client) Send(ctx context.Context, data interface{}, dontDrop ...bool) error {
 	if c.hub.Stopped() {
 		// hub was already shut down
 		return ErrWebsocketServerUnavailable
@@ -374,7 +385,7 @@ func (c *Client) Send(ctx context.Context, msg interface{}, dontDrop ...bool) er
 				return ErrClientDisconnected
 			case <-c.sendChanClosed:
 				return ErrClientDisconnected
-			case c.sendChan <- msg:
+			case c.sendChan <- data:
 				return nil
 			}
 		}
@@ -394,10 +405,16 @@ func (c *Client) Send(ctx context.Context, msg interface{}, dontDrop ...bool) er
 		return ErrClientDisconnected
 	default:
 		select {
-		case c.sendChan <- msg:
+		case c.sendChan <- data:
 			return nil
 		default:
 			return nil
 		}
 	}
+}
+
+// SendRaw sends a raw message to the client.
+// The message is not JSON marshaled.
+func (c *Client) SendRaw(ctx context.Context, data []byte, dontDrop ...bool) error {
+	return c.Send(ctx, &rawMsg{Data: data}, dontDrop...)
 }
