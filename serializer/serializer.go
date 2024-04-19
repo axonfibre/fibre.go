@@ -435,6 +435,11 @@ func TimeToUint64(value time.Time) uint64 {
 	return uint64(unixNano)
 }
 
+// Uint64ToTime converts a uint64 unix timestamp with nanosecond-precision to a time.Time.
+func Uint64ToTime(value uint64) time.Time {
+	return time.Unix(0, int64(value)).UTC()
+}
+
 // WritePayload writes the given payload Serializable into the Serializer.
 // This is different to WriteObject as it also writes the length denotation of the payload.
 func (s *Serializer) WritePayload(payload Serializable, deSeriMode DeSerializationMode, deSeriCtx interface{}, guard SerializableWriteGuardFunc, errProducer ErrProducer) *Serializer {

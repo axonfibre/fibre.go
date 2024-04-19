@@ -151,7 +151,7 @@ func (api *API) mapEncodeStruct(
 	if valueTime, ok := valueI.(time.Time); ok {
 		timeUint64 := serializer.TimeToUint64(valueTime)
 
-		return strconv.FormatUint(timeUint64, 10), nil
+		return EncodeUint64(timeUint64), nil
 	}
 
 	obj := orderedmap.New()
