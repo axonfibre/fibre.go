@@ -105,6 +105,7 @@ func (h *Hub) Events() *Events {
 }
 
 // BroadcastMsg sends a message to all clients.
+// JSON marshaling is done automatically based on "json" tags.
 func (h *Hub) BroadcastMsg(ctx context.Context, data interface{}, dontDrop ...bool) error {
 	if h.shutdownFlag.Load() {
 		// hub was already shut down or was not started yet
@@ -155,6 +156,12 @@ func (h *Hub) BroadcastMsg(ctx context.Context, data interface{}, dontDrop ...bo
 			return nil
 		}
 	}
+}
+
+// BroadcastMsgRaw sends a raw message to all clients.
+// The message is not JSON marshaled.
+func (h *Hub) BroadcastMsgRaw(ctx context.Context, data []byte, dontDrop ...bool) error {
+	return h.BroadcastMsg(ctx, &rawMsg{Data: data}, dontDrop...)
 }
 
 func (h *Hub) removeClient(client *Client) {
