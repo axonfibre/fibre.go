@@ -4,10 +4,10 @@ import (
 	"context"
 	"reflect"
 	"strconv"
-	"time"
 	"unicode/utf8"
 
 	"github.com/iotaledger/hive.go/ierrors"
+	"github.com/iotaledger/hive.go/serializer/v2"
 )
 
 func (api *API) mapDecode(ctx context.Context, mapVal any, value reflect.Value, ts TypeSettings, opts *options) (err error) {
@@ -311,12 +311,12 @@ func (api *API) mapDecodeStruct(ctx context.Context, mapVal any, value reflect.V
 	if valueType == timeType {
 		//nolint:forcetypeassert // false positive, we already checked the type via reflect
 		strVal := mapVal.(string)
-		nanoTime, err := strconv.ParseUint(strVal, 10, 64)
+		nanoTime, err := DecodeUint64(strVal)
 		if err != nil {
 			return ierrors.Wrapf(err, "unable to parse time %s map value", strVal)
 		}
 
-		value.Set(reflect.ValueOf(time.Unix(0, int64(nanoTime)).UTC()))
+		value.Set(reflect.ValueOf(serializer.Uint64ToTime(nanoTime)))
 
 		return nil
 	}

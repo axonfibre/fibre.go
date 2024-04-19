@@ -1,7 +1,6 @@
 package serix
 
 import (
-	"strconv"
 	"strings"
 
 	"github.com/iotaledger/hive.go/ierrors"
@@ -21,7 +20,7 @@ func parseStructTagValueUint(name string, keyValue []string, currentPart string)
 		return 0, err
 	}
 
-	result, err := strconv.ParseUint(value, 10, 64)
+	result, err := DecodeUint64(value)
 	if err != nil {
 		return 0, ierrors.Wrapf(err, "failed to parse %s %s", name, currentPart)
 	}

@@ -17,6 +17,7 @@ import (
 	"golang.org/x/crypto/blake2b"
 
 	"github.com/iotaledger/hive.go/ierrors"
+	"github.com/iotaledger/hive.go/serializer/v2"
 	"github.com/iotaledger/hive.go/serializer/v2/serix"
 )
 
@@ -374,9 +375,9 @@ func TestMapEncodeDecode(t *testing.T) {
 				api := serix.NewAPI()
 				must(api.RegisterTypeSettings(example{}, serix.TypeSettings{}.WithObjectType(uint8(23))))
 
-				uint64Time, err := strconv.ParseUint("1660301478120072000", 10, 64)
+				uint64Time, err := serix.DecodeUint64("1660301478120072000")
 				require.NoError(t, err)
-				exampleTime := time.Unix(0, int64(uint64Time)).UTC()
+				exampleTime := serializer.Uint64ToTime(uint64Time)
 
 				return paras{
 					api: api,
