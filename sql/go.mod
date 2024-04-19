@@ -3,10 +3,10 @@ module github.com/iotaledger/hive.go/sql
 go 1.22.0
 
 require (
-	github.com/iotaledger/hive.go/db v0.0.0-20240326102522-2e37ab3611a3
-	github.com/iotaledger/hive.go/ierrors v0.0.0-20240326102522-2e37ab3611a3
-	github.com/iotaledger/hive.go/log v0.0.0-20240326102522-2e37ab3611a3
-	github.com/iotaledger/hive.go/runtime v0.0.0-20240326102522-2e37ab3611a3
+	github.com/iotaledger/hive.go/db v0.0.0-20240419092034-908b58fed23c
+	github.com/iotaledger/hive.go/ierrors v0.0.0-20240419092034-908b58fed23c
+	github.com/iotaledger/hive.go/log v0.0.0-20240419092034-908b58fed23c
+	github.com/iotaledger/hive.go/runtime v0.0.0-20240419092034-908b58fed23c
 	gorm.io/driver/postgres v1.5.7
 	gorm.io/driver/sqlite v1.5.5
 	gorm.io/gorm v1.25.9
@@ -16,11 +16,11 @@ require (
 	github.com/ethereum/go-ethereum v1.13.15 // indirect
 	github.com/holiman/uint256 v1.2.4 // indirect
 	github.com/iancoleman/orderedmap v0.3.0 // indirect
-	github.com/iotaledger/hive.go/constraints v0.0.0-20240326102522-2e37ab3611a3 // indirect
-	github.com/iotaledger/hive.go/ds v0.0.0-20240326102522-2e37ab3611a3 // indirect
-	github.com/iotaledger/hive.go/lo v0.0.0-20240326102522-2e37ab3611a3 // indirect
-	github.com/iotaledger/hive.go/serializer/v2 v2.0.0-rc.1.0.20240223140837-6903485e20e2 // indirect
-	github.com/iotaledger/hive.go/stringify v0.0.0-20240326102522-2e37ab3611a3 // indirect
+	github.com/iotaledger/hive.go/constraints v0.0.0-20240419092034-908b58fed23c // indirect
+	github.com/iotaledger/hive.go/ds v0.0.0-20240419092034-908b58fed23c // indirect
+	github.com/iotaledger/hive.go/lo v0.0.0-20240419092034-908b58fed23c // indirect
+	github.com/iotaledger/hive.go/serializer/v2 v2.0.0-rc.1.0.20240419092034-908b58fed23c // indirect
+	github.com/iotaledger/hive.go/stringify v0.0.0-20240419092034-908b58fed23c // indirect
 	github.com/jackc/pgpassfile v1.0.0 // indirect
 	github.com/jackc/pgservicefile v0.0.0-20231201235250-de7065d80cb9 // indirect
 	github.com/jackc/pgx/v5 v5.5.5 // indirect
