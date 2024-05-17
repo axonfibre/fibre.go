@@ -210,18 +210,27 @@ func (l *logger) LogErrorAttrs(msg string, args ...slog.Attr) {
 // LogFatal emits a log message with the FATAL level, then calls os.Exit(1).
 func (l *logger) LogFatal(msg string, args ...any) {
 	l.Log(msg, LevelFatal, args...)
+
+	// we need to shutdown the logger before calling os.Exit(1) to ensure that all log messages are written to the output
+	l.shutdownRootLogger()
 	os.Exit(1)
 }
 
 // LogFatalf emits a formatted log message with the FATAL level, then calls os.Exit(1).
 func (l *logger) LogFatalf(fmtString string, args ...any) {
 	l.Logf(fmtString, LevelFatal, args...)
+
+	// we need to shutdown the logger before calling os.Exit(1) to ensure that all log messages are written to the output
+	l.shutdownRootLogger()
 	os.Exit(1)
 }
 
 // LogFatalAttrs emits a log message with the FATAL level and the given attributes, then calls os.Exit(1).
 func (l *logger) LogFatalAttrs(msg string, args ...slog.Attr) {
 	l.LogAttrs(msg, LevelFatal, args...)
+
+	// we need to shutdown the logger before calling os.Exit(1) to ensure that all log messages are written to the output
+	l.shutdownRootLogger()
 	os.Exit(1)
 }
 
@@ -292,6 +301,18 @@ func (l *logger) ParentLogger() Logger {
 	return l.parentLogger
 }
 
+// shutdownRootLogger shuts down the root logger.
+func (l *logger) shutdownRootLogger() {
+	if l == nil {
+		return
+	}
+
+	// shutdown the ioWorker and wait until there are no pending tasks to ensure that all log messages are written to the output
+	if asyncTextHandler, isAsyncTextHandler := l.rootLogger.Handler().(*textHandler); isAsyncTextHandler {
+		asyncTextHandler.ioWorker.Shutdown().PendingTasksCounter.WaitIsZero()
+	}
+}
+
 // Shutdown shuts down the logger by either unsubscribing from its parent logger or shutting down the root logger.
 //
 // Note: It is important to call this method whenever we remove all references to a child logger, otherwise the
@@ -305,9 +326,7 @@ func (l *logger) Shutdown() {
 	case true:
 		l.unsubscribeFromParent()
 	case false:
-		if asyncTextHandler, isAsyncTextHandler := l.rootLogger.Handler().(*textHandler); isAsyncTextHandler {
-			asyncTextHandler.ioWorker.Shutdown().PendingTasksCounter.WaitIsZero()
-		}
+		l.shutdownRootLogger()
 	}
 }
 
