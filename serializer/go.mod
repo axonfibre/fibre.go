@@ -1,7 +1,6 @@
 module github.com/axonfibre/fibre.go/serializer/v2
 
-go 1.22
-
+go 1.23
 require (
 	github.com/ethereum/go-ethereum v1.14.3
 	github.com/iancoleman/orderedmap v0.3.0

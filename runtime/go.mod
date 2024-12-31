@@ -1,7 +1,6 @@
 module github.com/axonfibre/fibre.go/runtime
 
-go 1.22
-
+go 1.23
 require (
 	github.com/fjl/memsize v0.0.2
 	github.com/axonfibre/fibre.go/constraints v0.0.1

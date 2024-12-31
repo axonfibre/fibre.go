@@ -1,7 +1,6 @@
 module github.com/axonfibre/fibre.go/web
 
-go 1.22
-
+go 1.23
 require (
 	github.com/axonfibre/fibre.go/constraints v0.0.1
 	github.com/axonfibre/fibre.go/ds v0.0.1

@@ -1,7 +1,6 @@
 module github.com/axonfibre/fibre.go/log
 
-go 1.22
-
+go 1.23
 require (
 	github.com/axonfibre/fibre.go/ds v0.0.1
 	github.com/axonfibre/fibre.go/ierrors v0.0.1

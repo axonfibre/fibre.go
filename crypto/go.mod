@@ -1,7 +1,6 @@
 module github.com/axonfibre/fibre.go/crypto
 
-go 1.22
-
+go 1.23
 require (
 	filippo.io/edwards25519 v1.1.0
 	github.com/axonfibre/fibre.go/ierrors v0.0.1

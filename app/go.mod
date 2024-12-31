@@ -1,7 +1,6 @@
 module github.com/axonfibre/fibre.go/app
 
-go 1.22
-
+go 1.23
 require (
 	github.com/felixge/fgprof v0.9.4
 	github.com/hashicorp/go-version v1.6.0

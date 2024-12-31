@@ -1,7 +1,6 @@
 module github.com/axonfibre/fibre.go/apputils
 
-go 1.22
-
+go 1.23
 require (
 	github.com/fbiville/markdown-table-formatter v0.3.0
 	github.com/iancoleman/orderedmap v0.3.0

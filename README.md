@@ -1,6 +1,6 @@
 # Axon Fibre
 
-Fibre.go is a shared library used in the [GoShimmer](https://github.com/iotaledger/goshimmer), [Hornet](https://github.com/iotaledger/hornet) and [Axon Core](https://github.com/axonfibre/axon-core) node software.
+Fibre.go is a shared library used in the [GoShimmer](https://github.com/iotaledger/goshimmer), [Axon Node](https://github.com/axonfibre/axon-node) and [Axon Core](https://github.com/axonfibre/axon-core) node software.
 
 It provides shared:
 
