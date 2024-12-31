@@ -4,9 +4,9 @@ go 1.22
 
 require (
 	filippo.io/edwards25519 v1.1.0
-	github.com/axonfibre/fibre.go/ierrors v0.0.0-20240517131232-748f1ce3a2d2
-	github.com/axonfibre/fibre.go/lo v0.0.0-20240517131232-748f1ce3a2d2
-	github.com/axonfibre/fibre.go/runtime v0.0.0-20240517131232-748f1ce3a2d2
+	github.com/axonfibre/fibre.go/ierrors v0.0.1
+	github.com/axonfibre/fibre.go/lo v0.0.1
+	github.com/axonfibre/fibre.go/runtime v0.0.1
 	github.com/libp2p/go-libp2p v0.33.2
 	github.com/mr-tron/base58 v1.2.0
 	github.com/stretchr/testify v1.9.0
@@ -17,7 +17,7 @@ require (
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/decred/dcrd/dcrec/secp256k1/v4 v4.3.0 // indirect
 	github.com/google/go-cmp v0.5.9 // indirect
-	github.com/axonfibre/fibre.go/constraints v0.0.0-20240517131232-748f1ce3a2d2 // indirect
+	github.com/axonfibre/fibre.go/constraints v0.0.1 // indirect
 	github.com/kr/pretty v0.3.1 // indirect
 	github.com/pelletier/go-toml/v2 v2.2.2 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
