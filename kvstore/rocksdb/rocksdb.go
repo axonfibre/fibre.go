@@ -7,11 +7,11 @@ import (
 	"sync/atomic"
 
 	"github.com/iotaledger/grocksdb"
-	"github.com/iotaledger/hive.go/ds/types"
-	"github.com/iotaledger/hive.go/ierrors"
-	"github.com/iotaledger/hive.go/kvstore"
-	"github.com/iotaledger/hive.go/kvstore/utils"
-	"github.com/iotaledger/hive.go/serializer/v2/byteutils"
+	"github.com/axonfibre/fibre.go/ds/types"
+	"github.com/axonfibre/fibre.go/ierrors"
+	"github.com/axonfibre/fibre.go/kvstore"
+	"github.com/axonfibre/fibre.go/kvstore/utils"
+	"github.com/axonfibre/fibre.go/serializer/v2/byteutils"
 )
 
 type rocksDBStore struct {

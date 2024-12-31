@@ -6,10 +6,10 @@ import (
 	"strings"
 	"sync/atomic"
 
-	"github.com/iotaledger/hive.go/ds/orderedmap"
-	"github.com/iotaledger/hive.go/lo"
-	"github.com/iotaledger/hive.go/runtime/options"
-	"github.com/iotaledger/hive.go/runtime/syncutils"
+	"github.com/axonfibre/fibre.go/ds/orderedmap"
+	"github.com/axonfibre/fibre.go/lo"
+	"github.com/axonfibre/fibre.go/runtime/options"
+	"github.com/axonfibre/fibre.go/runtime/syncutils"
 )
 
 // Group is a group of WorkerPools that can be managed as a whole.

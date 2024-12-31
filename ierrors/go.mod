@@ -1,4 +1,4 @@
-module github.com/iotaledger/hive.go/ierrors
+module github.com/axonfibre/fibre.go/ierrors
 
 go 1.22
 

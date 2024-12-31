@@ -3,7 +3,7 @@ package typeutils
 import (
 	"encoding/binary"
 
-	"github.com/iotaledger/hive.go/ierrors"
+	"github.com/axonfibre/fibre.go/ierrors"
 )
 
 func Uint64FromBytes(bytes []byte) (object uint64, consumed int, err error) {

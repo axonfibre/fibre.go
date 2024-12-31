@@ -7,7 +7,7 @@ import (
 	"github.com/stretchr/testify/mock"
 	"go.uber.org/zap"
 
-	"github.com/iotaledger/hive.go/lo"
+	"github.com/axonfibre/fibre.go/lo"
 )
 
 const (

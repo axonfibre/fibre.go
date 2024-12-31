@@ -1,7 +1,7 @@
 package lo
 
 import (
-	"github.com/iotaledger/hive.go/constraints"
+	"github.com/axonfibre/fibre.go/constraints"
 )
 
 // Cond is a conditional statement that returns the trueValue if the condition is true and the falseValue otherwise.

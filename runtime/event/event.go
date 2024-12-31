@@ -5,8 +5,8 @@ import (
 	"sync/atomic"
 	"unsafe"
 
-	"github.com/iotaledger/hive.go/ds/orderedmap"
-	"github.com/iotaledger/hive.go/runtime/options"
+	"github.com/axonfibre/fibre.go/ds/orderedmap"
+	"github.com/axonfibre/fibre.go/runtime/options"
 )
 
 // event is the base type for all generic events.

@@ -7,7 +7,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/iotaledger/hive.go/runtime/workerpool"
+	"github.com/axonfibre/fibre.go/runtime/workerpool"
 )
 
 func Benchmark(b *testing.B) {

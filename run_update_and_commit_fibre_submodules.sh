@@ -1,5 +1,5 @@
 #!/bin/bash
-BASE_MODULE="github.com/iotaledger/hive.go"
+BASE_MODULE="github.com/axonfibre/fibre.go"
 
 # Check if there are any changes in the Git repository
 if [[ -n $(git status -s) ]]; then

@@ -10,8 +10,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/iotaledger/hive.go/app/daemon"
-	"github.com/iotaledger/hive.go/ierrors"
+	"github.com/axonfibre/fibre.go/app/daemon"
+	"github.com/axonfibre/fibre.go/ierrors"
 )
 
 // graceTime for go routines to start.

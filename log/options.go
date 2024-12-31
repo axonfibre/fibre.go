@@ -6,7 +6,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/iotaledger/hive.go/runtime/options"
+	"github.com/axonfibre/fibre.go/runtime/options"
 )
 
 // Options contains the configuration options for a Logger.

@@ -1,4 +1,4 @@
-module github.com/iotaledger/hive.go/stringify
+module github.com/axonfibre/fibre.go/stringify
 
 go 1.22
 

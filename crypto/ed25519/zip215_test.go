@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	hiveEd25519 "github.com/iotaledger/hive.go/crypto/ed25519"
+	hiveEd25519 "github.com/axonfibre/fibre.go/crypto/ed25519"
 )
 
 var message = []byte("Zcash")

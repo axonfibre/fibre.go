@@ -3,8 +3,8 @@ package reactive
 import (
 	"sync"
 
-	"github.com/iotaledger/hive.go/ds/shrinkingmap"
-	"github.com/iotaledger/hive.go/lo"
+	"github.com/axonfibre/fibre.go/ds/shrinkingmap"
+	"github.com/axonfibre/fibre.go/lo"
 )
 
 // evictionState is the default implementation of the EvictionState interface.

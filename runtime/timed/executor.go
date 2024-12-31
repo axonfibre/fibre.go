@@ -4,8 +4,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/iotaledger/hive.go/ds/bitmask"
-	"github.com/iotaledger/hive.go/runtime/options"
+	"github.com/axonfibre/fibre.go/ds/bitmask"
+	"github.com/axonfibre/fibre.go/runtime/options"
 )
 
 // Executor defines a scheduler that executes tasks in the background at a given time. It does not spawn any

@@ -9,8 +9,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/iotaledger/hive.go/serializer/v2"
-	"github.com/iotaledger/hive.go/serializer/v2/serix"
+	"github.com/axonfibre/fibre.go/serializer/v2"
+	"github.com/axonfibre/fibre.go/serializer/v2/serix"
 )
 
 func TestDecode_Slice(t *testing.T) {

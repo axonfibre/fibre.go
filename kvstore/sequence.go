@@ -4,7 +4,7 @@ import (
 	"encoding/binary"
 	"sync"
 
-	"github.com/iotaledger/hive.go/ierrors"
+	"github.com/axonfibre/fibre.go/ierrors"
 )
 
 // Sequence represents a simple integer sequence backed by a KVStore.

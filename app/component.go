@@ -5,9 +5,9 @@ import (
 
 	"go.uber.org/dig"
 
-	"github.com/iotaledger/hive.go/app/daemon"
-	"github.com/iotaledger/hive.go/log"
-	"github.com/iotaledger/hive.go/runtime/workerpool"
+	"github.com/axonfibre/fibre.go/app/daemon"
+	"github.com/axonfibre/fibre.go/log"
+	"github.com/axonfibre/fibre.go/runtime/workerpool"
 )
 
 // InitFunc gets called as the initialization function of the app.

@@ -7,7 +7,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/iotaledger/hive.go/ds/orderedmap"
+	"github.com/axonfibre/fibre.go/ds/orderedmap"
 )
 
 func TestOrderedMap_Size(t *testing.T) {

@@ -6,8 +6,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/iotaledger/hive.go/ds"
-	"github.com/iotaledger/hive.go/serializer/v2/serix"
+	"github.com/axonfibre/fibre.go/ds"
+	"github.com/axonfibre/fibre.go/serializer/v2/serix"
 )
 
 func TestSet_IsEmpty(t *testing.T) {

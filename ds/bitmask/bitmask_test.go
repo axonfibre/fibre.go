@@ -3,7 +3,7 @@ package bitmask_test
 import (
 	"testing"
 
-	"github.com/iotaledger/hive.go/ds/bitmask"
+	"github.com/axonfibre/fibre.go/ds/bitmask"
 )
 
 func TestBitmask(t *testing.T) {

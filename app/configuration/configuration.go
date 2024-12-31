@@ -15,9 +15,9 @@ import (
 	"github.com/knadh/koanf/providers/file"
 	flag "github.com/spf13/pflag"
 
-	"github.com/iotaledger/hive.go/ierrors"
-	"github.com/iotaledger/hive.go/runtime/ioutils"
-	reflectutils "github.com/iotaledger/hive.go/runtime/reflect"
+	"github.com/axonfibre/fibre.go/ierrors"
+	"github.com/axonfibre/fibre.go/runtime/ioutils"
+	reflectutils "github.com/axonfibre/fibre.go/runtime/reflect"
 )
 
 var (

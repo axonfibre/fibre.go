@@ -11,7 +11,7 @@ SUBMODULES=$(find . -name "go.mod" -exec dirname {} \; | sed -e 's/^\.\///' | so
 for submodule in $SUBMODULES; do
     pushd "$submodule" >/dev/null
     echo "updating ${submodule}..."
-    hivemodules=$(grep '^\sgithub.com/iotaledger/hive.go' go.mod | awk '{print $1}')
+    hivemodules=$(grep '^\sgithub.com/axonfibre/fibre.go' go.mod | awk '{print $1}')
     for hivemodule in $hivemodules; do
         echo "   go get -u ${hivemodule}..."
         go get -u "$hivemodule@$COMMIT"

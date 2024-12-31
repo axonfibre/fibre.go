@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/iotaledger/hive.go/ierrors"
+	"github.com/axonfibre/fibre.go/ierrors"
 )
 
 // checks whether the given value has the concept of a length.

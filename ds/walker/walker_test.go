@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/iotaledger/hive.go/ds/walker"
+	"github.com/axonfibre/fibre.go/ds/walker"
 )
 
 func TestWalker(t *testing.T) {

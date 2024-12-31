@@ -3,7 +3,7 @@ package orderedmap
 import (
 	"sync"
 
-	"github.com/iotaledger/hive.go/ds/shrinkingmap"
+	"github.com/axonfibre/fibre.go/ds/shrinkingmap"
 )
 
 // OrderedMap provides a concurrent-safe ordered map.

@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/iotaledger/hive.go/ierrors"
-	"github.com/iotaledger/hive.go/lo"
+	"github.com/axonfibre/fibre.go/ierrors"
+	"github.com/axonfibre/fibre.go/lo"
 )
 
 func Test_Map(t *testing.T) {

@@ -7,9 +7,9 @@ import (
 
 	"nhooyr.io/websocket"
 
-	"github.com/iotaledger/hive.go/ierrors"
-	"github.com/iotaledger/hive.go/log"
-	"github.com/iotaledger/hive.go/runtime/event"
+	"github.com/axonfibre/fibre.go/ierrors"
+	"github.com/axonfibre/fibre.go/log"
+	"github.com/axonfibre/fibre.go/runtime/event"
 )
 
 var (

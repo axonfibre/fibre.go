@@ -1,8 +1,8 @@
 package kvstore
 
 import (
-	"github.com/iotaledger/hive.go/ierrors"
-	"github.com/iotaledger/hive.go/runtime/syncutils"
+	"github.com/axonfibre/fibre.go/ierrors"
+	"github.com/axonfibre/fibre.go/runtime/syncutils"
 )
 
 // TypedValue is a generically typed wrapper around a KVStore that provides access to a single value.

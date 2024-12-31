@@ -3,7 +3,7 @@ package serializer
 import (
 	"encoding/binary"
 
-	"github.com/iotaledger/hive.go/ierrors"
+	"github.com/axonfibre/fibre.go/ierrors"
 )
 
 var (

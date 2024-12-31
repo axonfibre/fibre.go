@@ -5,10 +5,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/iotaledger/hive.go/ierrors"
-	"github.com/iotaledger/hive.go/kvstore/mapdb"
-	"github.com/iotaledger/hive.go/lo"
-	"github.com/iotaledger/hive.go/serializer/v2/typeutils"
+	"github.com/axonfibre/fibre.go/ierrors"
+	"github.com/axonfibre/fibre.go/kvstore/mapdb"
+	"github.com/axonfibre/fibre.go/lo"
+	"github.com/axonfibre/fibre.go/serializer/v2/typeutils"
 )
 
 var ErrStopIteration = ierrors.New("stop")

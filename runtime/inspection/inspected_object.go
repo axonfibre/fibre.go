@@ -6,9 +6,9 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/iotaledger/hive.go/ds/orderedmap"
-	"github.com/iotaledger/hive.go/lo"
-	"github.com/iotaledger/hive.go/stringify"
+	"github.com/axonfibre/fibre.go/ds/orderedmap"
+	"github.com/axonfibre/fibre.go/lo"
+	"github.com/axonfibre/fibre.go/stringify"
 )
 
 // InspectedObject is an interface that is used to represent an object that has been inspected.

@@ -5,9 +5,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/iotaledger/hive.go/ds/types"
-	"github.com/iotaledger/hive.go/runtime/debug"
-	"github.com/iotaledger/hive.go/runtime/timeutil"
+	"github.com/axonfibre/fibre.go/ds/types"
+	"github.com/axonfibre/fibre.go/runtime/debug"
+	"github.com/axonfibre/fibre.go/runtime/timeutil"
 )
 
 // Task is a task that is executed by a WorkerPool.

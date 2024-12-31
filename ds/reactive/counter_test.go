@@ -7,7 +7,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/iotaledger/hive.go/ds/reactive"
+	"github.com/axonfibre/fibre.go/ds/reactive"
 )
 
 // TestCounter_Monitor tests the counter by monitoring a variable concurrently.

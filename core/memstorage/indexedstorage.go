@@ -3,8 +3,8 @@ package memstorage
 import (
 	"sync"
 
-	"github.com/iotaledger/hive.go/core/index"
-	"github.com/iotaledger/hive.go/ds/shrinkingmap"
+	"github.com/axonfibre/fibre.go/core/index"
+	"github.com/axonfibre/fibre.go/ds/shrinkingmap"
 )
 
 // IndexedStorage is an evictable storage that stores storages for indexes.

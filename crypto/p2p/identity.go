@@ -6,8 +6,8 @@ import (
 
 	libp2pcrypto "github.com/libp2p/go-libp2p/core/crypto"
 
-	"github.com/iotaledger/hive.go/crypto/pem"
-	"github.com/iotaledger/hive.go/ierrors"
+	"github.com/axonfibre/fibre.go/crypto/pem"
+	"github.com/axonfibre/fibre.go/ierrors"
 )
 
 // LoadOrCreateIdentityPrivateKey loads an existing Ed25519 based identity private key

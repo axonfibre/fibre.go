@@ -29,7 +29,7 @@ import (
 	"bytes"
 	"io"
 
-	"github.com/iotaledger/hive.go/ierrors"
+	"github.com/axonfibre/fibre.go/ierrors"
 )
 
 // ByteBuffer is an in-memory io.WriteSeeker implementation.

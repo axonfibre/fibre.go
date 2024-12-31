@@ -9,7 +9,7 @@ package backoff
 import (
 	"time"
 
-	"github.com/iotaledger/hive.go/ierrors"
+	"github.com/axonfibre/fibre.go/ierrors"
 )
 
 // Stop indicates that no more retries should be made for use in NextBackOff().

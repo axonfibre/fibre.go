@@ -1,7 +1,7 @@
 package sql
 
 import (
-	"github.com/iotaledger/hive.go/log"
+	"github.com/axonfibre/fibre.go/log"
 )
 
 type sqlLogger struct {

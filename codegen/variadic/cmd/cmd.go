@@ -5,7 +5,7 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/iotaledger/hive.go/codegen/variadic"
+	"github.com/axonfibre/fibre.go/codegen/variadic"
 )
 
 // main is the entry point of the variadic code generator.

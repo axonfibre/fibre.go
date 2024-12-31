@@ -17,7 +17,7 @@ import (
 	// an extended version of this package repackaged as an importable module.
 	"filippo.io/edwards25519"
 
-	"github.com/iotaledger/hive.go/ierrors"
+	"github.com/axonfibre/fibre.go/ierrors"
 )
 
 const (

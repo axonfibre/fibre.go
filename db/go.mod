@@ -1,10 +1,10 @@
-module github.com/iotaledger/hive.go/db
+module github.com/axonfibre/fibre.go/db
 
 go 1.22.0
 
 require (
-	github.com/iotaledger/hive.go/ierrors v0.0.0-20240517131232-748f1ce3a2d2
-	github.com/iotaledger/hive.go/runtime v0.0.0-20240517131232-748f1ce3a2d2
+	github.com/axonfibre/fibre.go/ierrors v0.0.0-20240517131232-748f1ce3a2d2
+	github.com/axonfibre/fibre.go/runtime v0.0.0-20240517131232-748f1ce3a2d2
 )
 
 require (

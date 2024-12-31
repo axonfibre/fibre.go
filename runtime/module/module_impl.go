@@ -1,8 +1,8 @@
 package module
 
 import (
-	"github.com/iotaledger/hive.go/ds/reactive"
-	"github.com/iotaledger/hive.go/log"
+	"github.com/axonfibre/fibre.go/ds/reactive"
+	"github.com/axonfibre/fibre.go/log"
 )
 
 // moduleImpl is the default implementation of a Module.

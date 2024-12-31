@@ -3,10 +3,10 @@ package onchangemap
 import (
 	"sync"
 
-	"github.com/iotaledger/hive.go/constraints"
-	"github.com/iotaledger/hive.go/ds/shrinkingmap"
-	"github.com/iotaledger/hive.go/ierrors"
-	"github.com/iotaledger/hive.go/runtime/options"
+	"github.com/axonfibre/fibre.go/constraints"
+	"github.com/axonfibre/fibre.go/ds/shrinkingmap"
+	"github.com/axonfibre/fibre.go/ierrors"
+	"github.com/axonfibre/fibre.go/runtime/options"
 )
 
 // Item represents an item in the OnChangeMap.

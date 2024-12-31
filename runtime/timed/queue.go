@@ -6,10 +6,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/iotaledger/hive.go/ds/bitmask"
-	"github.com/iotaledger/hive.go/ds/generalheap"
-	"github.com/iotaledger/hive.go/runtime/options"
-	"github.com/iotaledger/hive.go/runtime/timeutil"
+	"github.com/axonfibre/fibre.go/ds/bitmask"
+	"github.com/axonfibre/fibre.go/ds/generalheap"
+	"github.com/axonfibre/fibre.go/runtime/options"
+	"github.com/axonfibre/fibre.go/runtime/timeutil"
 )
 
 // region TimedQueue ///////////////////////////////////////////////////////////////////////////////////////////////////

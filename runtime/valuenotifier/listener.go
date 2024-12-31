@@ -5,8 +5,8 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/iotaledger/hive.go/ds/shrinkingmap"
-	"github.com/iotaledger/hive.go/ierrors"
+	"github.com/axonfibre/fibre.go/ds/shrinkingmap"
+	"github.com/axonfibre/fibre.go/ierrors"
 )
 
 type Notifier[T comparable] struct {

@@ -3,8 +3,8 @@ package bytesfilter
 import (
 	"sync"
 
-	"github.com/iotaledger/hive.go/ds/shrinkingmap"
-	"github.com/iotaledger/hive.go/ds/types"
+	"github.com/axonfibre/fibre.go/ds/shrinkingmap"
+	"github.com/axonfibre/fibre.go/ds/types"
 )
 
 type BytesFilter[IdentifierType types.IdentifierType] struct {

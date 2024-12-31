@@ -6,8 +6,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/iotaledger/hive.go/kvstore"
-	"github.com/iotaledger/hive.go/kvstore/mapdb"
+	"github.com/axonfibre/fibre.go/kvstore"
+	"github.com/axonfibre/fibre.go/kvstore/mapdb"
 )
 
 func TestTypedValue(t *testing.T) {

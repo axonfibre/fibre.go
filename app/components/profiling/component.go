@@ -10,8 +10,8 @@ import (
 	"github.com/felixge/fgprof"
 	"go.uber.org/dig"
 
-	"github.com/iotaledger/hive.go/app"
-	"github.com/iotaledger/hive.go/ierrors"
+	"github.com/axonfibre/fibre.go/app"
+	"github.com/axonfibre/fibre.go/ierrors"
 )
 
 func init() {

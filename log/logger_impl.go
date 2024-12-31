@@ -10,7 +10,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/iotaledger/hive.go/ds/reactive"
+	"github.com/axonfibre/fibre.go/ds/reactive"
 )
 
 // logger is the default implementation of the Logger interface.

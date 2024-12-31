@@ -10,8 +10,8 @@ import (
 	"github.com/iancoleman/orderedmap"
 	flag "github.com/spf13/pflag"
 
-	"github.com/iotaledger/hive.go/app/configuration"
-	"github.com/iotaledger/hive.go/apputils/parameter"
+	"github.com/axonfibre/fibre.go/app/configuration"
+	"github.com/axonfibre/fibre.go/apputils/parameter"
 )
 
 type parameterMapJSON struct {

@@ -1,6 +1,6 @@
 package kvstore
 
-import "github.com/iotaledger/hive.go/ierrors"
+import "github.com/axonfibre/fibre.go/ierrors"
 
 const (
 	// StoreVersionNone is used to load an existing store without a version check (e.g. in the tools).

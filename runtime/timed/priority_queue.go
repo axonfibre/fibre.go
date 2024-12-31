@@ -3,8 +3,8 @@ package timed
 import (
 	"time"
 
-	"github.com/iotaledger/hive.go/ds/priorityqueue"
-	"github.com/iotaledger/hive.go/lo"
+	"github.com/axonfibre/fibre.go/ds/priorityqueue"
+	"github.com/axonfibre/fibre.go/lo"
 )
 
 // PriorityQueue is a priority queue whose elements are sorted by time.

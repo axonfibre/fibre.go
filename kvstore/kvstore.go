@@ -3,7 +3,7 @@ package kvstore
 import (
 	"fmt"
 
-	"github.com/iotaledger/hive.go/ierrors"
+	"github.com/axonfibre/fibre.go/ierrors"
 )
 
 var (

@@ -8,8 +8,8 @@ import (
 	"os"
 	"path"
 
-	"github.com/iotaledger/hive.go/ierrors"
-	"github.com/iotaledger/hive.go/runtime/ioutils"
+	"github.com/axonfibre/fibre.go/ierrors"
+	"github.com/axonfibre/fibre.go/runtime/ioutils"
 )
 
 // ReadEd25519PrivateKeyFromPEMFile reads an Ed25519 private key from a file with PEM format.

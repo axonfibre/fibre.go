@@ -1,8 +1,8 @@
 package flushkv
 
 import (
-	"github.com/iotaledger/hive.go/kvstore"
-	"github.com/iotaledger/hive.go/serializer/v2/byteutils"
+	"github.com/axonfibre/fibre.go/kvstore"
+	"github.com/axonfibre/fibre.go/serializer/v2/byteutils"
 )
 
 // flushKVStore is a wrapper to any KVStore that flushes changes immediately.

@@ -3,7 +3,7 @@ package shrinkingmap
 import (
 	"sync"
 
-	"github.com/iotaledger/hive.go/lo"
+	"github.com/axonfibre/fibre.go/lo"
 )
 
 // the default options applied to the ShrinkingMap.

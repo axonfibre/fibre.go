@@ -6,9 +6,9 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/iotaledger/hive.go/lo"
-	"github.com/iotaledger/hive.go/runtime/options"
-	"github.com/iotaledger/hive.go/runtime/syncutils"
+	"github.com/axonfibre/fibre.go/lo"
+	"github.com/axonfibre/fibre.go/runtime/options"
+	"github.com/axonfibre/fibre.go/runtime/syncutils"
 )
 
 // WorkerPool is a pool of workers that can execute tasks.

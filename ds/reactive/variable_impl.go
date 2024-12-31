@@ -5,8 +5,8 @@ import (
 	"sync"
 	"unsafe"
 
-	"github.com/iotaledger/hive.go/ds"
-	"github.com/iotaledger/hive.go/lo"
+	"github.com/axonfibre/fibre.go/ds"
+	"github.com/axonfibre/fibre.go/lo"
 )
 
 // region variable /////////////////////////////////////////////////////////////////////////////////////////////////////

@@ -6,8 +6,8 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/iotaledger/hive.go/ds"
-	"github.com/iotaledger/hive.go/lo"
+	"github.com/axonfibre/fibre.go/ds"
+	"github.com/axonfibre/fibre.go/lo"
 )
 
 // waitGroup is the default implementation of the WaitGroup interface.

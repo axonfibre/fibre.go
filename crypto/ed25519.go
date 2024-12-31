@@ -4,7 +4,7 @@ import (
 	"crypto/ed25519"
 	"encoding/hex"
 
-	"github.com/iotaledger/hive.go/ierrors"
+	"github.com/axonfibre/fibre.go/ierrors"
 )
 
 var (

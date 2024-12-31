@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/iotaledger/hive.go/runtime/ioutils"
+	"github.com/axonfibre/fibre.go/runtime/ioutils"
 )
 
 func TestPathExists(t *testing.T) {

@@ -17,7 +17,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	hiveEd25519 "github.com/iotaledger/hive.go/crypto/ed25519"
+	hiveEd25519 "github.com/axonfibre/fibre.go/crypto/ed25519"
 )
 
 var nullSeed = make([]byte, std.SeedSize)

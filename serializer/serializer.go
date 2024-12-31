@@ -10,7 +10,7 @@ import (
 	"sort"
 	"time"
 
-	"github.com/iotaledger/hive.go/ierrors"
+	"github.com/axonfibre/fibre.go/ierrors"
 )
 
 type (

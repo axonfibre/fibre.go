@@ -7,8 +7,8 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/iotaledger/hive.go/ierrors"
-	"github.com/iotaledger/hive.go/lo"
+	"github.com/axonfibre/fibre.go/ierrors"
+	"github.com/axonfibre/fibre.go/lo"
 )
 
 // Template is a wrapper around the text/template package that provides a generic way for generating files according

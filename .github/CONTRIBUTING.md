@@ -45,17 +45,18 @@ Please check the following list:
 
 - **Do not open a GitHub issue for [security vulnerabilities](.github/SECURITY.MD)**, instead, please contact us at [security@iota.org](mailto:security@iota.org).
 
-- **Ensure the bug was not already reported** by searching on GitHub under [**Issues**](https://github.com/iotaledger/hive.go/issues). If the bug has already been reported **and the issue is still open**, add a comment to the existing issue instead of opening a new one.
+- **Ensure the bug was not already reported** by searching on GitHub under [**Issues**](https://github.com/axonfibre/fibre.go/issues). If the bug has already been reported **and the issue is still open**, add a comment to the existing issue instead of opening a new one.
 
 **Note:** If you find a **Closed** issue that seems similar to what you're experiencing, open a new issue and include a link to the original issue in the body of your new one.
 
 ### Submitting A Bug Report
 
-To report a bug, [open a new issue](https://github.com/iotaledger/hive.go/issues/new), and be sure to include as many details as possible, using the template.
+To report a bug, [open a new issue](https://github.com/axonfibre/fibre.go/issues/new), and be sure to include as many details as possible, using the template.
 
 **Note:** Minor changes such as fixing a typo can but do not need an open issue.
 
 If you also want to fix the bug, submit a [pull request](#pull-requests) and reference the issue.
+
 </details>
 
 <br>
@@ -68,13 +69,14 @@ This section guides you through suggesting a new feature. Following these guidel
 
 ### Before suggesting a new feature
 
-**Ensure the feature has not already been suggested** by searching on GitHub under [**Issues**](https://github.com/iotaledger/hive.go/issues).
+**Ensure the feature has not already been suggested** by searching on GitHub under [**Issues**](https://github.com/axonfibre/fibre.go/issues).
 
 ### Suggesting a new feature
 
 To suggest a new feature, talk to the IOTA community and IOTA Foundation members in the #goshimmer-discussion or #hornet channels on [Discord](https://discord.iota.org/).
 
 If the team members approves your feature, they will create an issue for it.
+
 </details>
 
 <br>
@@ -114,7 +116,7 @@ When creating a pull request, please follow these steps to have your contributio
 
 - A pull request can be merged only if it references an open issue
 
-    **Note:** Minor changes such as fixing a typo can but do not need an open issue.
+  **Note:** Minor changes such as fixing a typo can but do not need an open issue.
 
 ### Submitting a pull request
 
@@ -129,6 +131,7 @@ The following is a typical workflow for submitting a new pull request:
 If all [status checks](https://help.github.com/articles/about-status-checks/) pass, and the maintainer approves the PR, it will be merged.
 
 **Note:** Reviewers may ask you to complete additional work, tests, or other changes before your pull request can be approved and merged.
+
 </details>
 
 <br>

@@ -6,12 +6,12 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/iotaledger/hive.go/ds/serializableorderedmap"
-	"github.com/iotaledger/hive.go/ds/shrinkingmap"
-	"github.com/iotaledger/hive.go/ds/types"
-	"github.com/iotaledger/hive.go/ds/walker"
-	"github.com/iotaledger/hive.go/ierrors"
-	"github.com/iotaledger/hive.go/lo"
+	"github.com/axonfibre/fibre.go/ds/serializableorderedmap"
+	"github.com/axonfibre/fibre.go/ds/shrinkingmap"
+	"github.com/axonfibre/fibre.go/ds/types"
+	"github.com/axonfibre/fibre.go/ds/walker"
+	"github.com/axonfibre/fibre.go/ierrors"
+	"github.com/axonfibre/fibre.go/lo"
 )
 
 // region set //////////////////////////////////////////////////////////////////////////////////////////////////////////

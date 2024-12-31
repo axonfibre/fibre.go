@@ -6,11 +6,11 @@ import (
 
 	"github.com/pokt-network/smt"
 
-	"github.com/iotaledger/hive.go/ds/types"
-	"github.com/iotaledger/hive.go/ierrors"
-	"github.com/iotaledger/hive.go/kvstore"
-	"github.com/iotaledger/hive.go/lo"
-	"github.com/iotaledger/hive.go/serializer/v2/typeutils"
+	"github.com/axonfibre/fibre.go/ds/types"
+	"github.com/axonfibre/fibre.go/ierrors"
+	"github.com/axonfibre/fibre.go/kvstore"
+	"github.com/axonfibre/fibre.go/lo"
+	"github.com/axonfibre/fibre.go/serializer/v2/typeutils"
 )
 
 const (

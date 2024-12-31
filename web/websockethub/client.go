@@ -10,8 +10,8 @@ import (
 	"nhooyr.io/websocket"
 	"nhooyr.io/websocket/wsjson"
 
-	"github.com/iotaledger/hive.go/log"
-	"github.com/iotaledger/hive.go/runtime/timeutil"
+	"github.com/axonfibre/fibre.go/log"
+	"github.com/axonfibre/fibre.go/runtime/timeutil"
 )
 
 const (

@@ -5,8 +5,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/iotaledger/hive.go/runtime/syncutils"
-	"github.com/iotaledger/hive.go/runtime/timeutil"
+	"github.com/axonfibre/fibre.go/runtime/syncutils"
+	"github.com/axonfibre/fibre.go/runtime/timeutil"
 )
 
 // BatchWriteObject is an object that can be persisted to the KVStore in batches using the BatchedWriter.

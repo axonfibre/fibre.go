@@ -6,8 +6,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/iotaledger/hive.go/serializer/v2"
-	"github.com/iotaledger/hive.go/serializer/v2/stream"
+	"github.com/axonfibre/fibre.go/serializer/v2"
+	"github.com/axonfibre/fibre.go/serializer/v2/stream"
 )
 
 func TestRead(t *testing.T) {

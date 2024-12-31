@@ -7,7 +7,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/iotaledger/hive.go/runtime/timeutil"
+	"github.com/axonfibre/fibre.go/runtime/timeutil"
 )
 
 func TestSleepCompleted(t *testing.T) {

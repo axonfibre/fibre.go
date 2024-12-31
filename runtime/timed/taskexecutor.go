@@ -4,8 +4,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/iotaledger/hive.go/ds/shrinkingmap"
-	"github.com/iotaledger/hive.go/runtime/options"
+	"github.com/axonfibre/fibre.go/ds/shrinkingmap"
+	"github.com/axonfibre/fibre.go/runtime/options"
 )
 
 // region TaskExecutor ////////////////////////////////////////////////////////////////////////////////////////////

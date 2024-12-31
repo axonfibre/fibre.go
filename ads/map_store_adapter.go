@@ -3,8 +3,8 @@ package ads
 import (
 	"github.com/pokt-network/smt/kvstore"
 
-	"github.com/iotaledger/hive.go/ierrors"
-	hivekvstore "github.com/iotaledger/hive.go/kvstore"
+	"github.com/axonfibre/fibre.go/ierrors"
+	hivekvstore "github.com/axonfibre/fibre.go/kvstore"
 )
 
 var _ kvstore.MapStore = &mapStoreAdapter{}

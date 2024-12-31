@@ -10,10 +10,10 @@ import (
 	"gorm.io/gorm"
 	gormLogger "gorm.io/gorm/logger"
 
-	"github.com/iotaledger/hive.go/db"
-	"github.com/iotaledger/hive.go/ierrors"
-	"github.com/iotaledger/hive.go/log"
-	"github.com/iotaledger/hive.go/runtime/options"
+	"github.com/axonfibre/fibre.go/db"
+	"github.com/axonfibre/fibre.go/ierrors"
+	"github.com/axonfibre/fibre.go/log"
+	"github.com/axonfibre/fibre.go/runtime/options"
 )
 
 type DatabaseParameters struct {

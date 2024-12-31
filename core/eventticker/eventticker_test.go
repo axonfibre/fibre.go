@@ -10,8 +10,8 @@ import (
 	"github.com/mr-tron/base58"
 	"github.com/stretchr/testify/require"
 
-	"github.com/iotaledger/hive.go/core/eventticker"
-	"github.com/iotaledger/hive.go/lo"
+	"github.com/axonfibre/fibre.go/core/eventticker"
+	"github.com/axonfibre/fibre.go/lo"
 )
 
 func TestEventTicker(t *testing.T) {

@@ -3,7 +3,7 @@ package promise
 import (
 	"sync"
 
-	"github.com/iotaledger/hive.go/ds/shrinkingmap"
+	"github.com/axonfibre/fibre.go/ds/shrinkingmap"
 )
 
 // region Event

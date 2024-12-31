@@ -2,7 +2,7 @@
 
 package event
 
-//go:generate go run github.com/iotaledger/hive.go/codegen/variadic/cmd@latest 0 9 events.go
+//go:generate go run github.com/axonfibre/fibre.go/codegen/variadic/cmd@latest 0 9 events.go
 
 // Event {{- if hasParams}}{{paramCount}}{{end}} is an event with {{if hasParams}}{{paramCount}}{{else}}no{{end}} generic parameters.
 type Event /*{{- if hasParams}}{{paramCount}}{{"["}}{{types}}{{" any]"}}{{end}}*/ struct {

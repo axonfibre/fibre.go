@@ -3,9 +3,9 @@ package reactive
 import (
 	"cmp"
 
-	"github.com/iotaledger/hive.go/ds"
-	"github.com/iotaledger/hive.go/ds/shrinkingmap"
-	"github.com/iotaledger/hive.go/runtime/syncutils"
+	"github.com/axonfibre/fibre.go/ds"
+	"github.com/axonfibre/fibre.go/ds/shrinkingmap"
+	"github.com/axonfibre/fibre.go/runtime/syncutils"
 )
 
 // region sortedSet ////////////////////////////////////////////////////////////////////////////////////////////////////

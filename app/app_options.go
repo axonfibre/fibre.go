@@ -1,7 +1,7 @@
 package app
 
 import (
-	"github.com/iotaledger/hive.go/app/daemon"
+	"github.com/axonfibre/fibre.go/app/daemon"
 )
 
 // the default options applied to the App.

@@ -3,7 +3,7 @@ package reactive
 import (
 	"log/slog"
 
-	"github.com/iotaledger/hive.go/lo"
+	"github.com/axonfibre/fibre.go/lo"
 )
 
 // region Variable /////////////////////////////////////////////////////////////////////////////////////////////////////

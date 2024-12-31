@@ -6,8 +6,8 @@ import (
 	"strconv"
 	"unicode/utf8"
 
-	"github.com/iotaledger/hive.go/ierrors"
-	"github.com/iotaledger/hive.go/serializer/v2"
+	"github.com/axonfibre/fibre.go/ierrors"
+	"github.com/axonfibre/fibre.go/serializer/v2"
 )
 
 func (api *API) mapDecode(ctx context.Context, mapVal any, value reflect.Value, ts TypeSettings, opts *options) (err error) {

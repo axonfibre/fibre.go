@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/iotaledger/hive.go/core/memstorage"
-	"github.com/iotaledger/hive.go/ds/shrinkingmap"
+	"github.com/axonfibre/fibre.go/core/memstorage"
+	"github.com/axonfibre/fibre.go/ds/shrinkingmap"
 )
 
 type index uint32

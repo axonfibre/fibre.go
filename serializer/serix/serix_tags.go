@@ -3,7 +3,7 @@ package serix
 import (
 	"strings"
 
-	"github.com/iotaledger/hive.go/ierrors"
+	"github.com/axonfibre/fibre.go/ierrors"
 )
 
 func parseStructTagValue(name string, keyValue []string, currentPart string) (string, error) {

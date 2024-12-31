@@ -1,6 +1,6 @@
 package reactive
 
-import "github.com/iotaledger/hive.go/lo"
+import "github.com/axonfibre/fibre.go/lo"
 
 // counter is the default implementation of the Counter interface.
 type counter[InputType comparable] struct {

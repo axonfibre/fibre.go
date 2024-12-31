@@ -4,12 +4,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/iotaledger/hive.go/core/index"
-	"github.com/iotaledger/hive.go/core/memstorage"
-	"github.com/iotaledger/hive.go/crypto"
-	"github.com/iotaledger/hive.go/ds/shrinkingmap"
-	"github.com/iotaledger/hive.go/runtime/options"
-	"github.com/iotaledger/hive.go/runtime/timed"
+	"github.com/axonfibre/fibre.go/core/index"
+	"github.com/axonfibre/fibre.go/core/memstorage"
+	"github.com/axonfibre/fibre.go/crypto"
+	"github.com/axonfibre/fibre.go/ds/shrinkingmap"
+	"github.com/axonfibre/fibre.go/runtime/options"
+	"github.com/axonfibre/fibre.go/runtime/timed"
 )
 
 // region EventTicker //////////////////////////////////////////////////////////////////////////////////////////////////

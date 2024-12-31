@@ -6,8 +6,8 @@ import (
 
 	"github.com/mr-tron/base58"
 
-	"github.com/iotaledger/hive.go/ierrors"
-	"github.com/iotaledger/hive.go/lo"
+	"github.com/axonfibre/fibre.go/ierrors"
+	"github.com/axonfibre/fibre.go/lo"
 )
 
 // PublicKey is the type of Ed25519 public keys.

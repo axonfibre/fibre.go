@@ -4,7 +4,7 @@ import (
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 
-	"github.com/iotaledger/hive.go/runtime/event"
+	"github.com/axonfibre/fibre.go/runtime/event"
 )
 
 var Events *EventsStruct

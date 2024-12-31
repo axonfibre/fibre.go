@@ -3,10 +3,10 @@ package serializableorderedmap
 import (
 	"context"
 
-	"github.com/iotaledger/hive.go/ds/orderedmap"
-	"github.com/iotaledger/hive.go/ierrors"
-	"github.com/iotaledger/hive.go/serializer/v2"
-	"github.com/iotaledger/hive.go/serializer/v2/serix"
+	"github.com/axonfibre/fibre.go/ds/orderedmap"
+	"github.com/axonfibre/fibre.go/ierrors"
+	"github.com/axonfibre/fibre.go/serializer/v2"
+	"github.com/axonfibre/fibre.go/serializer/v2/serix"
 )
 
 // SerializableOrderedMap provides a concurrent-safe ordered map that is serializable.

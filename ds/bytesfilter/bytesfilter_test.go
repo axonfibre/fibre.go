@@ -7,7 +7,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"golang.org/x/crypto/blake2b"
 
-	"github.com/iotaledger/hive.go/ds/bytesfilter"
+	"github.com/axonfibre/fibre.go/ds/bytesfilter"
 )
 
 func newIdentifier(bytes []byte) [32]byte {

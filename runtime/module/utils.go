@@ -1,7 +1,7 @@
 package module
 
 import (
-	"github.com/iotaledger/hive.go/ds/reactive"
+	"github.com/axonfibre/fibre.go/ds/reactive"
 )
 
 // TriggerAll triggers the given event on all given modules.

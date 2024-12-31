@@ -3,9 +3,9 @@ package walker
 import (
 	"container/list"
 
-	"github.com/iotaledger/hive.go/ds/orderedmap"
-	"github.com/iotaledger/hive.go/ds/types"
-	"github.com/iotaledger/hive.go/lo"
+	"github.com/axonfibre/fibre.go/ds/orderedmap"
+	"github.com/axonfibre/fibre.go/ds/types"
+	"github.com/axonfibre/fibre.go/lo"
 )
 
 // region Walker /////////////////////////////////////////////////////////////////////////////////////////////////////////

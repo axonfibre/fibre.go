@@ -1,8 +1,8 @@
 package event
 
 import (
-	"github.com/iotaledger/hive.go/runtime/options"
-	"github.com/iotaledger/hive.go/runtime/workerpool"
+	"github.com/axonfibre/fibre.go/runtime/options"
+	"github.com/axonfibre/fibre.go/runtime/workerpool"
 )
 
 // Hook is a container that holds a trigger function and its trigger settings.

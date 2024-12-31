@@ -1,8 +1,8 @@
 package ads
 
 import (
-	"github.com/iotaledger/hive.go/ds/types"
-	"github.com/iotaledger/hive.go/kvstore"
+	"github.com/axonfibre/fibre.go/ds/types"
+	"github.com/axonfibre/fibre.go/kvstore"
 )
 
 // Set is a sparse merkle tree based set.

@@ -10,7 +10,7 @@ import (
 	"github.com/pelletier/go-toml/v2"
 	"gopkg.in/yaml.v3"
 
-	"github.com/iotaledger/hive.go/ierrors"
+	"github.com/axonfibre/fibre.go/ierrors"
 )
 
 // PathExists returns whether the given file or directory exists.

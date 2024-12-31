@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/iotaledger/hive.go/ds/serializableorderedmap"
-	"github.com/iotaledger/hive.go/serializer/v2/serix"
+	"github.com/axonfibre/fibre.go/ds/serializableorderedmap"
+	"github.com/axonfibre/fibre.go/serializer/v2/serix"
 )
 
 func TestSerialization(t *testing.T) {

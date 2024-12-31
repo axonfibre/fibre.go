@@ -7,7 +7,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/iotaledger/hive.go/serializer/v2/stream"
+	"github.com/axonfibre/fibre.go/serializer/v2/stream"
 )
 
 func TestByteBuffer_Write(t *testing.T) {

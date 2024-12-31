@@ -4,7 +4,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/iotaledger/hive.go/runtime/syncutils"
+	"github.com/axonfibre/fibre.go/runtime/syncutils"
 )
 
 func TestCounter_IncreaseDecrease(t *testing.T) {

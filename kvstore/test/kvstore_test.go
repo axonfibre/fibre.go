@@ -9,10 +9,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/iotaledger/hive.go/kvstore"
-	"github.com/iotaledger/hive.go/kvstore/debug"
-	"github.com/iotaledger/hive.go/kvstore/mapdb"
-	"github.com/iotaledger/hive.go/kvstore/rocksdb"
+	"github.com/axonfibre/fibre.go/kvstore"
+	"github.com/axonfibre/fibre.go/kvstore/debug"
+	"github.com/axonfibre/fibre.go/kvstore/mapdb"
+	"github.com/axonfibre/fibre.go/kvstore/rocksdb"
 )
 
 var (

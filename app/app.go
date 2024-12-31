@@ -14,14 +14,14 @@ import (
 	flag "github.com/spf13/pflag"
 	"go.uber.org/dig"
 
-	"github.com/iotaledger/hive.go/app/configuration"
-	"github.com/iotaledger/hive.go/app/daemon"
-	"github.com/iotaledger/hive.go/app/version"
-	"github.com/iotaledger/hive.go/ierrors"
-	"github.com/iotaledger/hive.go/lo"
-	"github.com/iotaledger/hive.go/log"
-	"github.com/iotaledger/hive.go/runtime/timeutil"
-	"github.com/iotaledger/hive.go/runtime/workerpool"
+	"github.com/axonfibre/fibre.go/app/configuration"
+	"github.com/axonfibre/fibre.go/app/daemon"
+	"github.com/axonfibre/fibre.go/app/version"
+	"github.com/axonfibre/fibre.go/ierrors"
+	"github.com/axonfibre/fibre.go/lo"
+	"github.com/axonfibre/fibre.go/log"
+	"github.com/axonfibre/fibre.go/runtime/timeutil"
+	"github.com/axonfibre/fibre.go/runtime/workerpool"
 )
 
 const (

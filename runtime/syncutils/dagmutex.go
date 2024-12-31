@@ -3,8 +3,8 @@ package syncutils
 import (
 	"sync"
 
-	"github.com/iotaledger/hive.go/ds/shrinkingmap"
-	"github.com/iotaledger/hive.go/ierrors"
+	"github.com/axonfibre/fibre.go/ds/shrinkingmap"
+	"github.com/axonfibre/fibre.go/ierrors"
 )
 
 // DAGMutex is a multi-entity reader/writer mutual exclusion lock that allows for starvation.

@@ -6,8 +6,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/iotaledger/hive.go/ds"
-	"github.com/iotaledger/hive.go/ds/randommap"
+	"github.com/axonfibre/fibre.go/ds"
+	"github.com/axonfibre/fibre.go/ds/randommap"
 )
 
 func TestRandomMap_Basics(t *testing.T) {

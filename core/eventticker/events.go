@@ -1,8 +1,8 @@
 package eventticker
 
 import (
-	"github.com/iotaledger/hive.go/core/index"
-	"github.com/iotaledger/hive.go/runtime/event"
+	"github.com/axonfibre/fibre.go/core/index"
+	"github.com/axonfibre/fibre.go/runtime/event"
 )
 
 // Events represents events happening on a EventTicker.

@@ -3,7 +3,7 @@ package log
 import (
 	"log/slog"
 
-	"github.com/iotaledger/hive.go/runtime/options"
+	"github.com/axonfibre/fibre.go/runtime/options"
 )
 
 // Logger is a reactive logger that can be used to log messages with different log levels.

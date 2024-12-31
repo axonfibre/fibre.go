@@ -1,8 +1,8 @@
 package ds
 
 import (
-	"github.com/iotaledger/hive.go/ds/walker"
-	"github.com/iotaledger/hive.go/serializer/v2/serix"
+	"github.com/axonfibre/fibre.go/ds/walker"
+	"github.com/axonfibre/fibre.go/serializer/v2/serix"
 )
 
 // region Set //////////////////////////////////////////////////////////////////////////////////////////////////////////

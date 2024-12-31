@@ -3,7 +3,7 @@ package daemon
 import (
 	"context"
 
-	"github.com/iotaledger/hive.go/log"
+	"github.com/axonfibre/fibre.go/log"
 )
 
 // WorkerFunc is the function to run a worker accepting its context.

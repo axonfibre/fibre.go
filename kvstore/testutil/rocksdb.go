@@ -5,8 +5,8 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/iotaledger/hive.go/kvstore"
-	"github.com/iotaledger/hive.go/kvstore/rocksdb"
+	"github.com/axonfibre/fibre.go/kvstore"
+	"github.com/axonfibre/fibre.go/kvstore/rocksdb"
 )
 
 // variables for keeping track of how many databases have been created by the given test.

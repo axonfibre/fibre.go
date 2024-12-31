@@ -9,12 +9,12 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/iotaledger/hive.go/app/daemon"
-	"github.com/iotaledger/hive.go/ierrors"
-	"github.com/iotaledger/hive.go/log"
-	"github.com/iotaledger/hive.go/runtime/event"
-	"github.com/iotaledger/hive.go/runtime/ioutils"
-	"github.com/iotaledger/hive.go/runtime/options"
+	"github.com/axonfibre/fibre.go/app/daemon"
+	"github.com/axonfibre/fibre.go/ierrors"
+	"github.com/axonfibre/fibre.go/log"
+	"github.com/axonfibre/fibre.go/runtime/event"
+	"github.com/axonfibre/fibre.go/runtime/ioutils"
+	"github.com/axonfibre/fibre.go/runtime/options"
 )
 
 type selfShutdownRequest struct {

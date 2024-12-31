@@ -3,8 +3,8 @@ package safemath
 import (
 	"math/bits"
 
-	"github.com/iotaledger/hive.go/ierrors"
-	"github.com/iotaledger/hive.go/lo"
+	"github.com/axonfibre/fibre.go/ierrors"
+	"github.com/axonfibre/fibre.go/lo"
 )
 
 var (

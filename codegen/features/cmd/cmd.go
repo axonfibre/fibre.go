@@ -15,7 +15,7 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/iotaledger/hive.go/lo"
+	"github.com/axonfibre/fibre.go/lo"
 )
 
 func main() {

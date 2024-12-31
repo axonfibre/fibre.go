@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/iotaledger/hive.go/ds/reactive"
-	"github.com/iotaledger/hive.go/log"
+	"github.com/axonfibre/fibre.go/ds/reactive"
+	"github.com/axonfibre/fibre.go/log"
 )
 
 // TestLogger tests the logger by using the traditional logging methods that align with the slog interface and the

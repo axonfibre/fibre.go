@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/iotaledger/hive.go/lo"
+	"github.com/axonfibre/fibre.go/lo"
 )
 
 func TestSignatureFromBytesTooShort(t *testing.T) {

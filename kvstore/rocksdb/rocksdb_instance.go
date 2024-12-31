@@ -4,8 +4,8 @@ package rocksdb
 
 import (
 	"github.com/iotaledger/grocksdb"
-	"github.com/iotaledger/hive.go/ierrors"
-	"github.com/iotaledger/hive.go/runtime/ioutils"
+	"github.com/axonfibre/fibre.go/ierrors"
+	"github.com/axonfibre/fibre.go/runtime/ioutils"
 )
 
 // RocksDB holds the underlying grocksdb.DB instance and options.

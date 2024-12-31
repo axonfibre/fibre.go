@@ -4,7 +4,7 @@ import (
 	"container/heap"
 	"sync"
 
-	"github.com/iotaledger/hive.go/ds/generalheap"
+	"github.com/axonfibre/fibre.go/ds/generalheap"
 )
 
 // PriorityQueue is a priority queue that sorts elements by a priority value.

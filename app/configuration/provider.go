@@ -8,7 +8,7 @@ import (
 	"github.com/knadh/koanf/providers/posflag"
 	"github.com/spf13/pflag"
 
-	"github.com/iotaledger/hive.go/ierrors"
+	"github.com/axonfibre/fibre.go/ierrors"
 )
 
 // lowerPosflag implements a pflag command line provider.

@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"sync"
 
-	"github.com/iotaledger/hive.go/ierrors"
+	"github.com/axonfibre/fibre.go/ierrors"
 )
 
 type validators struct {

@@ -7,8 +7,8 @@ import (
 
 	flag "github.com/spf13/pflag"
 
-	"github.com/iotaledger/hive.go/app/configuration"
-	"github.com/iotaledger/hive.go/ierrors"
+	"github.com/axonfibre/fibre.go/app/configuration"
+	"github.com/axonfibre/fibre.go/ierrors"
 )
 
 var (

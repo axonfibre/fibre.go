@@ -3,7 +3,7 @@ package log
 import (
 	"log/slog"
 
-	"github.com/iotaledger/hive.go/ierrors"
+	"github.com/axonfibre/fibre.go/ierrors"
 )
 
 // Level is the type of log levels.

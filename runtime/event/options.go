@@ -3,9 +3,9 @@ package event
 import (
 	"sync/atomic"
 
-	"github.com/iotaledger/hive.go/lo"
-	"github.com/iotaledger/hive.go/runtime/options"
-	"github.com/iotaledger/hive.go/runtime/workerpool"
+	"github.com/axonfibre/fibre.go/lo"
+	"github.com/axonfibre/fibre.go/runtime/options"
+	"github.com/axonfibre/fibre.go/runtime/workerpool"
 )
 
 // WithMaxTriggerCount sets the maximum number of times an entity shall be triggered.
