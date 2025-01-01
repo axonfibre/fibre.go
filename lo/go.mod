@@ -2,8 +2,8 @@ module github.com/axonfibre/fibre.go/lo
 
 go 1.23
 require (
-	github.com/axonfibre/fibre.go/constraints
-	github.com/axonfibre/fibre.go/ierrors
+	github.com/axonfibre/fibre.go/constraints v0.0.1
+	github.com/axonfibre/fibre.go/ierrors v0.0.1
 	github.com/stretchr/testify v1.8.4
 )
 
