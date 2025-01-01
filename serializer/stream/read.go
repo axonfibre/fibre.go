@@ -6,7 +6,7 @@ import (
 	"io"
 
 	"github.com/axonfibre/fibre.go/ierrors"
-	"github.com/axonfibre/fibre.go/serializer/v2"
+	"github.com/axonfibre/fibre.go"
 )
 
 // Read reads a generic basic type from the reader.

@@ -8,7 +8,7 @@ import (
 
 	"github.com/axonfibre/fibre.go/ierrors"
 	"github.com/axonfibre/fibre.go/lo"
-	"github.com/axonfibre/fibre.go/serializer/v2"
+	"github.com/axonfibre/fibre.go"
 )
 
 // Write writes one of the allowedGenericTypes basic type to the writer.

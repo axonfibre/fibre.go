@@ -10,8 +10,8 @@ import (
 	"github.com/iancoleman/orderedmap"
 	"github.com/stretchr/testify/require"
 
-	"github.com/axonfibre/fibre.go/serializer/v2"
-	"github.com/axonfibre/fibre.go/serializer/v2/serix"
+	"github.com/axonfibre/fibre.go"
+	"github.com/axonfibre/fibre.go/serix"
 )
 
 const defaultSeriMode = serializer.DeSeriModePerformValidation

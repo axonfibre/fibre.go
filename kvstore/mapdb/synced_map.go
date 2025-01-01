@@ -6,7 +6,7 @@ import (
 
 	"github.com/axonfibre/fibre.go/kvstore"
 	"github.com/axonfibre/fibre.go/kvstore/utils"
-	"github.com/axonfibre/fibre.go/serializer/v2/byteutils"
+	"github.com/axonfibre/fibre.go/byteutils"
 )
 
 type syncedKVMap struct {

@@ -3,7 +3,7 @@ package debug
 import (
 	"github.com/axonfibre/fibre.go/ds/bitmask"
 	"github.com/axonfibre/fibre.go/kvstore"
-	"github.com/axonfibre/fibre.go/serializer/v2/byteutils"
+	"github.com/axonfibre/fibre.go/byteutils"
 )
 
 // Command is a type that represents a specific method in the KVStore.

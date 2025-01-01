@@ -8,9 +8,9 @@ import (
 	"github.com/stretchr/testify/require"
 
 	"github.com/axonfibre/fibre.go/lo"
-	"github.com/axonfibre/fibre.go/serializer/v2"
-	"github.com/axonfibre/fibre.go/serializer/v2/byteutils"
-	"github.com/axonfibre/fibre.go/serializer/v2/stream"
+	"github.com/axonfibre/fibre.go"
+	"github.com/axonfibre/fibre.go/byteutils"
+	"github.com/axonfibre/fibre.go/stream"
 )
 
 func requireBufferBytes(t *testing.T, buffer *stream.ByteBuffer, expected []byte) {

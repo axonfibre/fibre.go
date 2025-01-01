@@ -16,10 +16,10 @@ require (
 	github.com/ethereum/go-ethereum v1.14.3 // indirect
 	github.com/holiman/uint256 v1.2.4 // indirect
 	github.com/iancoleman/orderedmap v0.3.0 // indirect
-	github.com/axonfibre/fibre.go/constraints // indirect
-	github.com/axonfibre/fibre.go/ds // indirect
-	github.com/axonfibre/fibre.go/lo // indirect
-	github.com/axonfibre/fibre.go/serializer/v2 v2.0.0-rc.1.0.20240517131232-748f1ce3a2d2 // indirect
+	github.com/axonfibre/fibre.go/constraints v0.0.1 // indirect
+	github.com/axonfibre/fibre.go/ds v0.0.1 // indirect
+	github.com/axonfibre/fibre.go/lo v0.0.1 // indirect
+	github.com/axonfibre/fibre.go/serializer v0.0.1 // indirect
 	github.com/axonfibre/fibre.go/stringify // indirect
 	github.com/jackc/pgpassfile v1.0.0 // indirect
 	github.com/jackc/pgservicefile v0.0.0-20231201235250-de7065d80cb9 // indirect

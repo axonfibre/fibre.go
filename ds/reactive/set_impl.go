@@ -5,7 +5,7 @@ import (
 
 	"github.com/axonfibre/fibre.go/ds"
 	"github.com/axonfibre/fibre.go/lo"
-	"github.com/axonfibre/fibre.go/serializer/v2/serix"
+	"github.com/axonfibre/fibre.go/serializer/serix"
 )
 
 // region set //////////////////////////////////////////////////////////////////////////////////////////////////////////

@@ -10,7 +10,7 @@ import (
 	"github.com/axonfibre/fibre.go/ierrors"
 	"github.com/axonfibre/fibre.go/kvstore"
 	"github.com/axonfibre/fibre.go/lo"
-	"github.com/axonfibre/fibre.go/serializer/v2/typeutils"
+	"github.com/axonfibre/fibre.go/serializer/typeutils"
 )
 
 const (

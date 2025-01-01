@@ -2,7 +2,7 @@ package flushkv
 
 import (
 	"github.com/axonfibre/fibre.go/kvstore"
-	"github.com/axonfibre/fibre.go/serializer/v2/byteutils"
+	"github.com/axonfibre/fibre.go/byteutils"
 )
 
 // flushKVStore is a wrapper to any KVStore that flushes changes immediately.

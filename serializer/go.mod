@@ -1,4 +1,4 @@
-module github.com/axonfibre/fibre.go/serializer/v2
+module github.com/axonfibre/fibre.go/serializer
 
 go 1.23
 require (

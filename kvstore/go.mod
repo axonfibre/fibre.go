@@ -6,7 +6,7 @@ require (
 	github.com/axonfibre/fibre.go/ds
 	github.com/axonfibre/fibre.go/ierrors
 	github.com/axonfibre/fibre.go/runtime
-	github.com/axonfibre/fibre.go/serializer/v2 v2.0.0-rc.1.0.20240517131232-748f1ce3a2d2
+	github.com/axonfibre/fibre.go v2.0.0-rc.1.0.20240517131232-748f1ce3a2d2
 	github.com/stretchr/testify v1.9.0
 )
 

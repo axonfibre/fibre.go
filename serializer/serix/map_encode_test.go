@@ -17,8 +17,8 @@ import (
 	"golang.org/x/crypto/blake2b"
 
 	"github.com/axonfibre/fibre.go/ierrors"
-	"github.com/axonfibre/fibre.go/serializer/v2"
-	"github.com/axonfibre/fibre.go/serializer/v2/serix"
+	"github.com/axonfibre/fibre.go"
+	"github.com/axonfibre/fibre.go/serix"
 )
 
 func must(err error) {
