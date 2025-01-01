@@ -4,10 +4,10 @@ go 1.23
 require (
 	github.com/felixge/fgprof v0.9.4
 	github.com/hashicorp/go-version v1.6.0
-	github.com/axonfibre/fibre.go/ierrors v0.0.1
-	github.com/axonfibre/fibre.go/lo v0.0.1
-	github.com/axonfibre/fibre.go/log v0.0.1
-	github.com/axonfibre/fibre.go/runtime v0.0.1
+	github.com/axonfibre/fibre.go/ierrors
+	github.com/axonfibre/fibre.go/lo
+	github.com/axonfibre/fibre.go/log
+	github.com/axonfibre/fibre.go/runtime
 	github.com/knadh/koanf v1.5.0
 	github.com/spf13/cast v1.6.0
 	github.com/spf13/pflag v1.0.5
@@ -27,10 +27,10 @@ require (
 	github.com/google/pprof v0.0.0-20240509144519-723abb6459b7 // indirect
 	github.com/holiman/uint256 v1.2.4 // indirect
 	github.com/iancoleman/orderedmap v0.3.0 // indirect
-	github.com/axonfibre/fibre.go/constraints v0.0.1 // indirect
-	github.com/axonfibre/fibre.go/ds v0.0.1 // indirect
+	github.com/axonfibre/fibre.go/constraints // indirect
+	github.com/axonfibre/fibre.go/ds // indirect
 	github.com/axonfibre/fibre.go/serializer/v2 v0.0.01 // indirect
-	github.com/axonfibre/fibre.go/stringify v0.0.1 // indirect
+	github.com/axonfibre/fibre.go/stringify // indirect
 	github.com/kr/text v0.2.0 // indirect
 	github.com/mitchellh/copystructure v1.2.0 // indirect
 	github.com/mitchellh/mapstructure v1.5.0 // indirect
