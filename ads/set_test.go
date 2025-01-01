@@ -7,7 +7,7 @@ import (
 
 	"github.com/axonfibre/fibre.go/kvstore/mapdb"
 	"github.com/axonfibre/fibre.go/lo"
-	"github.com/axonfibre/fibre.go/serializer/v2/typeutils"
+	"github.com/axonfibre/fibre.go/serializer/typeutils"
 )
 
 func TestSet(t *testing.T) {

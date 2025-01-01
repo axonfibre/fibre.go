@@ -1,13 +1,12 @@
 module github.com/axonfibre/fibre.go/ds
 
-go 1.22
-
+go 1.23
 require (
 	github.com/axonfibre/fibre.go/constraints v0.0.1
 	github.com/axonfibre/fibre.go/ierrors v0.0.1
 	github.com/axonfibre/fibre.go/lo v0.0.1
 	github.com/axonfibre/fibre.go/runtime v0.0.1
-	github.com/axonfibre/fibre.go/serializer/v2 v0.0.1
+	github.com/axonfibre/fibre.go/serializer v0.0.1
 	github.com/stretchr/testify v1.9.0
 	golang.org/x/crypto v0.22.0
 )

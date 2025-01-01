@@ -2,7 +2,7 @@ package ds
 
 import (
 	"github.com/axonfibre/fibre.go/ds/walker"
-	"github.com/axonfibre/fibre.go/serializer/v2/serix"
+	"github.com/axonfibre/fibre.go/serializer/serix"
 )
 
 // region Set //////////////////////////////////////////////////////////////////////////////////////////////////////////

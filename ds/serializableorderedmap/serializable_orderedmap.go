@@ -5,8 +5,8 @@ import (
 
 	"github.com/axonfibre/fibre.go/ds/orderedmap"
 	"github.com/axonfibre/fibre.go/ierrors"
-	"github.com/axonfibre/fibre.go/serializer/v2"
-	"github.com/axonfibre/fibre.go/serializer/v2/serix"
+	"github.com/axonfibre/fibre.go"
+	"github.com/axonfibre/fibre.go/serix"
 )
 
 // SerializableOrderedMap provides a concurrent-safe ordered map that is serializable.

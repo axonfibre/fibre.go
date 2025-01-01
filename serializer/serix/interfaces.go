@@ -6,7 +6,7 @@ import (
 
 	hiveorderedmap "github.com/axonfibre/fibre.go/ds/orderedmap"
 	"github.com/axonfibre/fibre.go/ierrors"
-	"github.com/axonfibre/fibre.go/serializer/v2"
+	"github.com/axonfibre/fibre.go"
 )
 
 var (

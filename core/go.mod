@@ -1,7 +1,6 @@
 module github.com/axonfibre/fibre.go/core
 
-go 1.22
-
+go 1.23
 require (
 	github.com/axonfibre/fibre.go/crypto v0.0.1
 	github.com/axonfibre/fibre.go/ds v0.0.1

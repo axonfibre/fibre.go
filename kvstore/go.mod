@@ -1,13 +1,12 @@
 module github.com/axonfibre/fibre.go/kvstore
 
-go 1.22
-
+go 1.23
 require (
 	github.com/iotaledger/grocksdb v1.7.5-0.20230220105546-5162e18885c7
 	github.com/axonfibre/fibre.go/ds v0.0.1
 	github.com/axonfibre/fibre.go/ierrors v0.0.1
 	github.com/axonfibre/fibre.go/runtime v0.0.1
-	github.com/axonfibre/fibre.go/serializer/v2 v2.0.0-rc.1.0.20240517131232-748f1ce3a2d2
+	github.com/axonfibre/fibre.go v0.0.1
 	github.com/stretchr/testify v1.9.0
 )
 

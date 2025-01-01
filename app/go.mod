@@ -1,7 +1,6 @@
 module github.com/axonfibre/fibre.go/app
 
-go 1.22
-
+go 1.23
 require (
 	github.com/felixge/fgprof v0.9.4
 	github.com/hashicorp/go-version v1.6.0
@@ -30,7 +29,7 @@ require (
 	github.com/iancoleman/orderedmap v0.3.0 // indirect
 	github.com/axonfibre/fibre.go/constraints v0.0.1 // indirect
 	github.com/axonfibre/fibre.go/ds v0.0.1 // indirect
-	github.com/axonfibre/fibre.go/serializer/v2 v0.0.01 // indirect
+	github.com/axonfibre/fibre.go/serializer v0.0.1 // indirect
 	github.com/axonfibre/fibre.go/stringify v0.0.1 // indirect
 	github.com/kr/text v0.2.0 // indirect
 	github.com/mitchellh/copystructure v1.2.0 // indirect

@@ -9,8 +9,8 @@ import (
 	"unicode/utf8"
 
 	"github.com/axonfibre/fibre.go/ierrors"
-	"github.com/axonfibre/fibre.go/serializer/v2"
-	"github.com/axonfibre/fibre.go/serializer/v2/byteutils"
+	"github.com/axonfibre/fibre.go"
+	"github.com/axonfibre/fibre.go/byteutils"
 )
 
 func (api *API) encode(ctx context.Context, value reflect.Value, ts TypeSettings, opts *options) (b []byte, err error) {

@@ -22,10 +22,10 @@ github.com/axonfibre/fibre.go/ierrors v0.0.1 h1:Qci9UOR7NUkmtMGce8QFkdUDvPlQRWNj
 github.com/axonfibre/fibre.go/ierrors v0.0.1/go.mod h1:GQY0/35sjgT9Poi1Vrs9kFVvAkuKzGXfVh4j6CBXsAA=
 github.com/axonfibre/fibre.go/lo v0.0.1 h1:Uz6owMmjn3zgQysoHK7+GLQ+I6eUcmj8EhgEWurClP4=
 github.com/axonfibre/fibre.go/lo v0.0.1/go.mod h1:U8HRCdzN4YB2/F/BkGIcNNyFb8iruD1Lf/k6yb37Kd0=
-github.com/axonfibre/fibre.go/log v0.0.1 h1:u0hBM77TA74wDZK519BHJvIx7n8T6T/YZuQE4sfpttM=
+github.com/axonfibre/fibre.go/log h1:u0hBM77TA74wDZK519BHJvIx7n8T6T/YZuQE4sfpttM=
 github.com/axonfibre/fibre.go/log v0.0.1/go.mod h1:DDObxam7BrqykUvRWE+k6i7QgM0fWXgtPPlNRhQX2O8=
-github.com/axonfibre/fibre.go/serializer/v2 v2.0.0-rc.1.0.20240517131232-748f1ce3a2d2 h1:+uclIoWMZtlJDu5nXHl1ddaPo3ayMwGeJYUT4xPwN80=
-github.com/axonfibre/fibre.go/serializer/v2 v2.0.0-rc.1.0.20240517131232-748f1ce3a2d2/go.mod h1:l9lwqrn8dvaMx3IJpP1wBqZ1DFJi2eHdLzXi2GHk3gQ=
+github.com/axonfibre/fibre.go v0.0.1 h1:+uclIoWMZtlJDu5nXHl1ddaPo3ayMwGeJYUT4xPwN80=
+github.com/axonfibre/fibre.go v0.0.1/go.mod h1:l9lwqrn8dvaMx3IJpP1wBqZ1DFJi2eHdLzXi2GHk3gQ=
 github.com/axonfibre/fibre.go/stringify v0.0.1 h1:bOVyWjDVdvt7QopFHws66+9sTCluHg4ib0DcRwIVnZo=
 github.com/axonfibre/fibre.go/stringify v0.0.1/go.mod h1:O4p7UmsfoeLqtAUwrKbq0lXMxjY/MLQSpZSavvvvGig=
 github.com/kr/pretty v0.3.1 h1:flRD4NNwYAUpkphVc1HcthR4KEIFJ65n8Mw5qdRn3LE=

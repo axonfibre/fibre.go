@@ -7,7 +7,7 @@ import (
 	"github.com/stretchr/testify/require"
 
 	"github.com/axonfibre/fibre.go/ds"
-	"github.com/axonfibre/fibre.go/serializer/v2/serix"
+	"github.com/axonfibre/fibre.go/serializer/serix"
 )
 
 func TestSet_IsEmpty(t *testing.T) {

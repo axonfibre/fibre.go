@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/axonfibre/fibre.go/serializer/v2/stream"
+	"github.com/axonfibre/fibre.go/stream"
 )
 
 func TestOffset(t *testing.T) {

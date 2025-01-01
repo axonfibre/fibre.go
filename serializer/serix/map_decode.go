@@ -7,7 +7,7 @@ import (
 	"unicode/utf8"
 
 	"github.com/axonfibre/fibre.go/ierrors"
-	"github.com/axonfibre/fibre.go/serializer/v2"
+	"github.com/axonfibre/fibre.go"
 )
 
 func (api *API) mapDecode(ctx context.Context, mapVal any, value reflect.Value, ts TypeSettings, opts *options) (err error) {
